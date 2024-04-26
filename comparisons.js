@@ -17,12 +17,15 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
+console.log("Is numberTeachers strictly equal to stringTearchers?", numberTeachers === stringTeachers);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21)
 // this should log: false
 
 
@@ -35,13 +38,18 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: Explain. 
+// The code declares a variable friend and assigns it the number 6. 
+// Then declares a variable siblings and assigns it the number 2. 
+// It logs the comparison: is friends greater than siblings? Which will log true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+// The code declares a variable attendees and assigns it the number 9. 
+// Then declares a variable meals and assigns it the number 8. 
+// It logs the comparison: is attendees not equal to meals. Which will loge true.
 
 // #-------------------
 // PART 3: Logical Operators
@@ -63,9 +71,12 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log("Does the dog loves to play and loves treats", lovesToPlay && lovesTreats);
+
 
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
+console.log("Does the dog loves to play or loves the dog park", lovesToPlay || lovesDogPark);
 
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
