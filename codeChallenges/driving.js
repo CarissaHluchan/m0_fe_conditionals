@@ -19,9 +19,9 @@
 var goodDrivingRecord = true;
 var age = 24;
 
-if (goodDrivingRecord === ture && age > 25){
+if (goodDrivingRecord === true && age > 25){
     console.log("You get a discount on the car rental!");
-} else if (goodDrivingRecord === ture || age > 25){
+} else if (goodDrivingRecord === true || age > 25){
     console.log("You pay the full listed price.");
 } else {
     console.log("You will need someone else to sign for the rental");
