@@ -81,3 +81,4 @@ console.log("Does the dog loves to play or loves the dog park", lovesToPlay || l
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
 // HINT: Use the age variable and assume that a puppy is less than 2 years old
+console.log("Dose the dog loves to play and is a puppy", lovesToPlay && age <= 1);
